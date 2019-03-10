@@ -1,0 +1,27 @@
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="user_responsable_form_view">
+            <field name="name">res.users.form</field>
+            <field name="model">res.users</field>
+            <field name="inherit_id" ref="base.view_users_form"/>
+            <field name="arch" type="xml">
+                <notebook position="inside">
+                    <page string="Responsabilidades asignadas">
+                        <group>
+                            <field name="responsabilidad_ids"/>
+                        </group>
+                    </page>
+                </notebook>
+            </field>
+        </record>
+
+
+        <record model="ir.actions.act_window" id="contact_list_action">
+            <field name="name">Usuarios</field>
+            <field name="res_model">res.users</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+</odoo>

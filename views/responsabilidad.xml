@@ -1,0 +1,68 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="responsabilidad_form_view">
+            <field name="name">responsabilidad.form</field>
+            <field name="model">responsabilidades.responsabilidad</field>
+            <field name="arch" type="xml">
+                <form string="Formulario de responsabilidad">
+                    <sheet>
+                        <group>
+                            <field name="titulo"/>
+                            <field name="usuario_id"/>
+                        </group>
+                        <notebook>
+                            <page string="Descripcion">
+                                <field name="descripcion"/>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- override the automatically generated list view for responsabilidades -->
+        <record model="ir.ui.view" id="responsabilidad_tree_view">
+            <field name="name">responsabilidad.tree</field>
+            <field name="model">responsabilidades.responsabilidad</field>
+            <field name="arch" type="xml">
+                <tree string="Responsabilidad Tree">
+                    <field name="titulo"/>
+                    <field name="usuario_id"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <record model="ir.ui.view" id="responsabilidad_search_view">
+            <field name="name">responsabilidad.search</field>
+            <field name="model">responsabilidades.responsabilidad</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="titulo"/>
+                    <group string="Group By">
+                        <filter name="by_usuario" string="Usuario" context="{'group_by': 'usuario_id'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="responsabilidad_list_action">
+
+            <field name="name">Responsabilidades</field>
+            <field name="res_model">responsabilidades.responsabilidad</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context" eval="{'search_default_my_responsabilidades': 1}"/>
+
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_smiling_face">Crear la primera responsabilidad
+                </p>
+            </field>
+        </record>
+
+
+        <menuitem id="main_responsabilidades_menu" name="Responsabilidades"/>
+        <menuitem id="responsabilidades_menu" name="Responsabilidades de los usuarios" parent="main_responsabilidades_menu"/>
+        <menuitem id="responsabilidad_menu" name="Responsabilidades" parent="responsabilidades_menu" action="responsabilidad_list_action"/>
+
+    </data>
+</odoo>

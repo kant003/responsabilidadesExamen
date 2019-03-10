@@ -1,0 +1,14 @@
+<odoo>
+    <data>
+        <record id="object0" model="responsabilidades.responsabilidad">
+            <field name="titulo">Resp1</field>
+            <field name="descripcion">bla bla</field>
+        </record>
+        <record id="object2" model="responsabilidades.responsabilidad">
+            <field name="titulo">Resp2</field>
+            <field name="descripcion">bla bla</field>
+        </record>
+
+       
+    </data>
+</odoo>

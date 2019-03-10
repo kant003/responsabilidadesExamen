@@ -1,0 +1,347 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* viajes2
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0-20181126\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-27 23:14+0000\n"
+"PO-Revision-Date: 2019-02-27 23:14+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: viajes2
+#: model_terms:ir.ui.view,arch_db:viajes2.view_viajes_viaje_kanban
+msgid "<br/>\n"
+"                                    Duración:"
+msgstr ""
+
+#. module: viajes2
+#: model_terms:ir.ui.view,arch_db:viajes2.view_viajes_viaje_kanban
+msgid "<br/>\n"
+"                                    Fecha inicio:"
+msgstr ""
+
+#. module: viajes2
+#: model_terms:ir.ui.view,arch_db:viajes2.vehiculo_form_view
+msgid "Acerca de"
+msgstr ""
+
+#. module: viajes2
+#: model_terms:ir.ui.view,arch_db:viajes2.view_viajes_viaje_kanban
+msgid "Borrar"
+msgstr ""
+
+#. module: viajes2
+#: model_terms:ir.ui.view,arch_db:viajes2.viaje_form_view
+msgid "Calendario"
+msgstr ""
+
+#. module: viajes2
+#: model_terms:ir.ui.view,arch_db:viajes2.viaje_calendar_view
+msgid "Calendarios de viajes"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__color
+msgid "Color"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_res_partner__conductor
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__conductor_id
+msgid "Conductor"
+msgstr ""
+
+#. module: viajes2
+#: model:res.partner.category,name:viajes2.conductor2
+msgid "Conductor / Experto"
+msgstr ""
+
+#. module: viajes2
+#: model:res.partner.category,name:viajes2.conductor1
+msgid "Conductor / Novel"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_res_partner__x_conductor2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__conductor2_id
+msgid "Conductor2"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_res_partner__conductor3
+msgid "Conductor3"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_res_partner__conductor4
+msgid "Conductor4"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.ui.menu,name:viajes2.configuration_menu
+msgid "Configuration"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model,name:viajes2.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: viajes2
+#: model_terms:ir.actions.act_window,help:viajes2.vehiculo_list_action
+msgid "Crear el primer vehiculo"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_vehiculo__create_uid
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_vehiculo__create_date
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_vehiculo__descripcion
+#: model_terms:ir.ui.view,arch_db:viajes2.vehiculo_form_view
+msgid "Descripcion"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_vehiculo__display_name
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__duracion
+msgid "Duracion"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,help:viajes2.field_viajes_viaje__duracion
+msgid "Duracion en días"
+msgstr ""
+
+#. module: viajes2
+#: model_terms:ir.ui.view,arch_db:viajes2.vehiculo_form_view
+msgid "Esto es un ejemplo"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__fecha_inicio
+msgid "Fecha Inicio"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__fecha_finalizacion
+msgid "Fecha finalizacion"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__finalizado
+msgid "Finalizado"
+msgstr ""
+
+#. module: viajes2
+#: model_terms:ir.ui.view,arch_db:viajes2.vehiculo_form_view
+msgid "Formulario de Vehiculo"
+msgstr ""
+
+#. module: viajes2
+#: model_terms:ir.ui.view,arch_db:viajes2.viaje_form_view
+msgid "Formulario de Viajes"
+msgstr ""
+
+#. module: viajes2
+#: model_terms:ir.ui.view,arch_db:viajes2.viaje_form_view
+msgid "General"
+msgstr ""
+
+#. module: viajes2
+#: model_terms:ir.ui.view,arch_db:viajes2.viajes_viaje_graph_view
+msgid "Grafico de pasajeros por vehiculo"
+msgstr ""
+
+#. module: viajes2
+#: model_terms:ir.ui.view,arch_db:viajes2.vehiculo_search_view
+msgid "Group By"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_vehiculo__id
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__id
+msgid "ID"
+msgstr ""
+
+#. module: viajes2
+#: sql_constraint:viajes.vehiculo:0
+msgid "La matricula del coche no puede ser igual que la descripción"
+msgstr ""
+
+#. module: viajes2
+#: sql_constraint:viajes.vehiculo:0
+msgid "La matricula tiene que ser única"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_vehiculo____last_update
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_vehiculo__write_uid
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_vehiculo__write_date
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_vehiculo__marca
+msgid "Marca"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_vehiculo__matricula
+msgid "Matricula"
+msgstr ""
+
+#. module: viajes2
+#: model_terms:ir.ui.view,arch_db:viajes2.vehiculo_search_view
+msgid "Mis vehiculos"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_vehiculo__modelo
+msgid "Modelo"
+msgstr ""
+
+#. module: viajes2
+#: model_terms:ir.ui.view,arch_db:viajes2.view_viajes_viaje_kanban
+msgid "Nombre viaje:"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__plazas
+msgid "Numero de plazas disponibles"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.actions.act_window,name:viajes2.contact_list_action
+msgid "Parners(viajeros)"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__pasajeros_ids
+msgid "Pasajeros"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__plazas_ocupadas
+msgid "Plazas ocupadas"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_vehiculo__propietario_id
+#: model_terms:ir.ui.view,arch_db:viajes2.vehiculo_search_view
+msgid "Propietario"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__titulo
+msgid "Titulo"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__vehiculo_id
+msgid "Vehiculo"
+msgstr ""
+
+#. module: viajes2
+#: model_terms:ir.ui.view,arch_db:viajes2.vehiculo_tree_view
+msgid "Vehiculo Tree"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.actions.act_window,name:viajes2.vehiculo_list_action
+#: model:ir.ui.menu,name:viajes2.vehiculo_menu
+msgid "Vehiculos"
+msgstr ""
+
+#. module: viajes2
+#: model_terms:ir.ui.view,arch_db:viajes2.viaje_tree_view
+msgid "Viaje Tree"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.ui.menu,name:viajes2.contact_menu
+msgid "Viajeros"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.ui.menu,name:viajes2.contact_cat_menu
+msgid "Viajeros Tags"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.actions.act_window,name:viajes2.contact_cat_list_action
+msgid "Viajeros categorias"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.actions.act_window,name:viajes2.viaje_list_action
+#: model:ir.model,name:viajes2.model_viajes_viaje
+#: model:ir.ui.menu,name:viajes2.main_viajes_menu
+#: model:ir.ui.menu,name:viajes2.viaje_menu
+#: model:ir.ui.menu,name:viajes2.viajes_menu
+#: model_terms:ir.ui.view,arch_db:viajes2.vehiculo_form_view
+msgid "Viajes"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_vehiculo__viaje_ids
+msgid "Viajes del coche"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_res_partner__viaje_ids
+#: model_terms:ir.ui.view,arch_db:viajes2.partner_conductor_form_view
+msgid "Viajes realizados"
+msgstr ""
+
+#. module: viajes2
+#: model_terms:ir.ui.view,arch_db:viajes2.vehiculo_form_view
+msgid "Viajes registrados"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model.fields,field_description:viajes2.field_viajes_viaje__contador_pasajeros
+msgid "contador de pasajeros"
+msgstr ""
+
+#. module: viajes2
+#: model:res.groups,name:viajes2.group_manager
+msgid "viajes / Manager"
+msgstr ""
+
+#. module: viajes2
+#: model:ir.model,name:viajes2.model_viajes_vehiculo
+msgid "viajes Vehiculo"
+msgstr ""
+
